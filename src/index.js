@@ -1,5 +1,6 @@
 import './styles.css';
 import './js/markup.js';
+import './js/notifications.js';
 // https://restcountries.eu/rest/v2/name/{name}
 
 // // import timerTpl from './templates/timer.hbs';
