@@ -6,7 +6,7 @@ import fetchCountries from './fetchCountries.js';
 import updateMarcup from './markup.js';
 // console.log(refs.boxRef);
 // console.log(refs.inputRef);
-refs.inputRef.addEventListener('input', debounce(searchCountry, 500));
+refs.inputRef.addEventListener('input', debounce(searchCountry, 1000));
 function searchCountry(event) {
   event.preventDefault();
 
