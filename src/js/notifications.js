@@ -5,20 +5,19 @@ import '@pnotify/core/dist/BrightTheme.css';
 // console.log(PNotify);
 const notFoundCountry = function notFound() {
   PNotify.notice({
-    text:
-      'По Вашему запросу страна не найдена. Проверьте, пожалуйста, правильность ввода страны и повторите попытку.',
+    text: 'Country not found. Please check your request and try again!',
   });
 };
 // console.log(notFoundCountry);
 const overflowCountriesList = function overflowList() {
   PNotify.info({
-    text: 'Список найденных стран переполнен. Введите более специфичный запрос',
+    text: '"Too many matches found. Please enter a more specific query! ',
   });
 };
 // console.log(overflowCountriesList);
 const errorRequest = function errReq() {
   PNotify.error({
-    text: 'Произошла ошибка запроса. Повторите, пожалуйста, запрос.',
+    text: 'Request error!',
   });
 };
 // console.log(errorRequest);

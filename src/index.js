@@ -1,6 +1,10 @@
 import './styles.css';
-import './js/markup.js';
+import './js/refs.js';
+import './js/searchCountry.js';
+import './js/notifications.js';
 import './js/fetchCountries.js';
+import './js/markup.js';
+
 // https://restcountries.eu/rest/v2/name/{name}
 
 // // import timerTpl from './templates/timer.hbs';

@@ -22,10 +22,13 @@ body {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  margin: 50px;
+  margin: 30px;
   font-size: 30px;
 }
-
+.title {
+  font-size: 50px;
+  text-align: center;
+}
 .input {
   display: flex;
   width: auto;
@@ -36,4 +39,25 @@ body {
   /* margin: 50px; */
 /*  */
 }
-
+.box {
+  width: 100%;
+}
+.country-box {
+  display: flex;
+  width: 100%;
+}
+.country-info {
+  width: calc((100% - 15px * 2) / 2);
+  list-style: none;
+  margin: 15px 0;
+}
+span.bold {
+  font-weight: 700;
+}
+.country-flag {
+  width: calc((100% - 15px * 2) / 2);
+  margin: 15px;
+}
+.lang-list {
+  list-style-type: disc;
+}
